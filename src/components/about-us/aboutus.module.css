@@ -1,0 +1,11 @@
+.aboutus{
+    font-size: 1rem;
+    
+}
+.list{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* justify-content: space-between; */
+    gap: 20px;
+    
+}
