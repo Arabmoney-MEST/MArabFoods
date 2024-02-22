@@ -1,24 +1,19 @@
-import Hero from "../../components/Hero";
 import Navbar from "../../components/navbar/Navbar";
-import Products from "../../components/Products";
-import Signbutton from "../../components/Signbutton";
-
+import AboutUs from "../../components/about-us";
+import Footer from "../../components/footer";
+import Hero from "../../components/hero/Hero";
+import Products from "../../components/products/Products";
 
 const LandingPage = () => {
   return (
     <div>
-    <Navbar></Navbar>
-    <Hero></Hero>
-    <Products></Products>
-    <Signbutton></Signbutton>
-    
-
-    
-
+      <Navbar />
+      <Hero />
+      <AboutUs />
+      <Products />
+      <Footer />
     </div>
-  )
-   
-  
+  );
 };
 
 export default LandingPage;
