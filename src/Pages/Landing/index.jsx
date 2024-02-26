@@ -7,11 +7,11 @@ import Products from "../../components/products/Products";
 const LandingPage = () => {
   return (
     <div>
-      <Navbar />
-      <Hero />
+      
+      
       <AboutUs />
-      <Products />
-      <Footer />
+      
+      
     </div>
   );
 };
