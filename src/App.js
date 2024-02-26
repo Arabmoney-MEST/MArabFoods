@@ -1,9 +1,11 @@
 import './App.css';
 import LandingPage from './Pages/Landing';
+import Hero from './components/hero/Hero';
 
 function App() {
   return <div>
-    <LandingPage />
+    {/* <LandingPage /> */}
+    <Hero />
 
   </div>;
 }
