@@ -27,7 +27,6 @@ const Footer = () => {
           <a href="/employer">ATÏNAD et CO</a>
           <a href="/employer">GERALDOAgro</a>
           <a href="/employer">LARISSAAgro</a>
-          
         </div>
         <div className="marabfoods_footer-links-div">
           <h4>Social Media Links</h4>
