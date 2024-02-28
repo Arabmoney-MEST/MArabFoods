@@ -9,6 +9,7 @@ const LandingPage = () => {
     <div>
       <Navbar />
       <Hero />
+    
       <AboutUs />
       <Products />
       <Footer />

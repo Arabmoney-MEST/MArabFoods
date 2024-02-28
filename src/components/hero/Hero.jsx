@@ -5,16 +5,15 @@ import styles from "./hero.module.css"
 const Hero = () => {
   return (
     <div className={styles.hero}>
-     {/* <img className={styles.image1} src={image1} alt="Field" /> */}
-    <h1 className={styles.rub}> MarabFoods</h1>
-
-    <p className={styles.font}>Cultivating the Future of Food</p>
-
-    <p className={styles.down}>Our top priority is implementing best practices.</p>
-
-   <em className={styles.font}>Nourishing communities, one seed at a time.</em>
-
-<button className={styles.Learn} type="button">Learn more</button>
+     
+      <h1 className={styles.headingH1}>Welcome to MarabFoods</h1>
+        <p className={styles.intro}>Cultivating the future of food and 
+        nourishing communities, one seed at a time.<br/><em>Your ultimate destination for high-quality, healthy food products.</em></p>
+       
+      <div className={styles.aboutUsButton}>
+        <button className={styles.learnButton}>Learn more</button>
+      </div>
+      <p className={styles.top}>Our top priority is implementing best practices.</p>
 
     </div>
   )
