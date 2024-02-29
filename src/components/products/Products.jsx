@@ -6,6 +6,7 @@ import banana from "../../assets/banana.jpeg"
 
 const Products = () => {
   return (
+
     <div className={styles.parentcontainer}>
       <div className={styles.card}>
       <div className={styles.imagecontainer}>   
