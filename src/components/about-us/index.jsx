@@ -1,6 +1,6 @@
-import React from "react";
 import styles from "./aboutus.module.css";
 import image1 from "../../assets/annie-spratt-2INKkSrEmc8-unsplash.jpg";
+
 const AboutUs = () => {
 	return (
 		<section>
