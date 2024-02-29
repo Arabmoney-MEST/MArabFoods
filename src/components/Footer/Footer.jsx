@@ -10,27 +10,29 @@ const Footer = () => {
     <div className="marabfoods_footer">
       <div className="marabfoods_footer-links">
         <div className="marabfoods_footer-links-div">
-          <h4>Quick Links</h4>
-          <a href="/about-us">Home</a>
-          <a href="/partners">About Us</a>
-          <a href="/contacts">Contacts Us</a>
+          <h4>NAVIGATIONS</h4>
+          <a href="/navigations">Home</a>
+          <a href="/navigations">About Us</a>
+          <a href="/navigations">Contacts </a>
+          <a href="/navigations">Help</a>
         </div>
         <div className="marabfoods_footer-links-div">
-          <h4>Resource</h4>
-          <a href="/resources">Resource center</a>
+          <h4>RESOURCES</h4>
+          <a href="/resources">Products</a>
           <a href="/resources">Testimonials</a>
           <a href="/resources">Return and Refund Policy</a>
+          <a href="/resources">Promotions</a> 
         </div>
         <div className="marabfoods_footer-links-div">
-          <h4>Partners</h4>
+          <h4>PARTERNERS</h4>
           <a href="/employer">DIANA SWISH</a>
           <a href="/employer">ATÏNAD et CO</a>
           <a href="/employer">GERALDOAgro</a>
           <a href="/employer">LARISSAAgro</a>
         </div>
         <div className="marabfoods_footer-links-div">
-          <h4>Social Media Links</h4>
-          <div className="socialmedia">
+          <h4>GET CONNECTED</h4>
+          <div className="get-connected">
             <img src={fb} alt="" />
             <img src={youtube} alt="" />
             <img src={linkedIn} alt="" />
@@ -42,7 +44,7 @@ const Footer = () => {
       <hr></hr>
       <div className="marabfoods_footer-below">
         <div className="marabfoods_footer-copyright">
-          @2024 Marabfoods Private Limited. All right reserved
+          @2024 Marabfoods Private Limited. All Rights Reserved
         </div>
         <div className="marabfoods_footer-links">
           <a href="/terms">Terms & Conditions</a>

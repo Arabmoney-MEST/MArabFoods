@@ -20,7 +20,7 @@
     font-size: larger;
 }
 .marabfoods_footer-links-div{
-    display: flex;
+    display:flex;
     justify-content: flex-start;
     flex-direction: column;
     gap: 15px;
@@ -30,7 +30,7 @@
     text-decoration: none;
     color: white;
     opacity: 0.8;
-
+    font-size:medium;
 }
 
 .marabfoods_footer a:hover{
